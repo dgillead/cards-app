@@ -7,7 +7,9 @@ class App extends React.Component {
     return (
       <div>
         <div className="header">{this.props.title}</div>
-        <Card />
+        <div className = "cards">
+          <Card />
+        </div>
       </div>
     );
   }
